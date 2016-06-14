@@ -13,14 +13,14 @@ default: &default
   adapter: mysql2
   encoding: utf8
   pool: 5
-  username: simon_lehmann_and_ass
-  password: MhalliF123
-  host: db.slehmann36.com
+  username: 041400936_And
+  password: Du5H669M4374apd
+  host: student.mydesign.central.wa.edu.au
   socket: /var/run/mysqld/mysqld.sock
 
 development:
   <<: *default
-  database: simon_lehmann_and_ass
+  database: 041400936_Android
     #   mysql-rails-test_development
 
 # Warning: The database defined as "test" will be erased and
@@ -28,7 +28,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: simon_lehmann_and_ass
+  database: 041400936_Android
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -51,6 +51,6 @@ test:
 #
 production:
   <<: *default
-  database: simon_lehmann_and_ass
+  database: 041400936_Android
   #username: admin
   #password: MhalliF123 #<%= ENV['MYSQL-RAILS-TEST_DATABASE_PASSWORD'] %>
